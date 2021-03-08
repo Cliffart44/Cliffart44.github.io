@@ -1,0 +1,82 @@
+baseURL = "https://cliffart44.github.io"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Business card"
+theme = "cayman-hugo-theme"
+
+# Google analytics
+# googleAnalytics = "UA-123456789-1"
+
+# Disqus comments
+# disqusShortname = "yourdiscussshortname"
+
+# Syntax highlighting
+pygmentsCodefences = true
+pygmentsStyle = "pygments"
+
+[taxonomies]
+  tag = "tags"
+
+[permalinks]
+  post = "/:filename/"
+
+[params]
+  # Header text, can be markdown
+  project_name = "![Photo](https://github.com/Cliffart44/Cliffart44.github.io/raw/gh-pages/256.JPG)"
+  project_tagline = "> **Artjom Mashkov**, QA Engineer"
+
+  # Date format for post list and single pages
+  # For more date formats see https://gohugo.io/functions/format/
+  dateFormat = "2006-01-02"
+
+  # Footer text, can be markdown
+  footer = "[![Gitter](https://img.shields.io/gitter/room/Cliffart44/community?style=for-the-badge)](https://gitter.im/Cliffart44/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
+
+  # If true, the CSS/JS for Katex math typesetting are enabled
+  katex = true
+
+  # Breakpoints
+  large_breakpoint = "64em"
+  medium_breakpoint = "42em"
+
+  # Header colors
+  header_heading_color = "#1F1C18" # Заголовок и подпись
+  header_background_color = "#E7E9BB" # Правая часть градиента
+  header_background_color_secondary = "#403B4A" # Левая часть градиента
+
+  # Text colors
+  section_headings_color = "#b29f94" # Надпись "Cutaway"
+  body_text_color = "#606c71" #
+  body_link_color = "#1e6bb8" #
+  blockquote_text_color = "#819198" #
+
+  # Code colors
+  code_background_color = "#f3f6fa"
+  code_text_color = "#000000"
+
+  # Border colors
+  border_color = "#DD2476" #
+  table_border_color = "#000000" #
+  hr_border_color = "#C02425" # Линия
+
+[menu]
+  [[menu.nav]]
+    name = "GitHub"
+    url = "https://github.com/Cliffart44"
+    weight = 1
+  [[menu.nav]]
+    name = "DEV"
+    url = "https://dev.to/cliffart44"
+    weight = 4
+  [[menu.nav]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/cliffart/"
+    weight = 3
+  [[menu.nav]]
+    name = "CV"
+    url = "https://j.mp/3aUVJJL"
+    weight = 2
+  [[menu.nav]]
+    name = "hh"
+    url = "https://hh.ru/resume/3c910a1eff034eaa370039ed1f506e31474351"
+    weight = 5
