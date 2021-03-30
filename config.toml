@@ -65,8 +65,8 @@ pygmentsStyle = "pygments"
     url = "https://github.com/Cliffart44"
     weight = 1
   [[menu.nav]]
-    name = "DEV"
-    url = "https://dev.to/cliffart44"
+    name = "Habr career"
+    url = "https://career.habr.com/cliffart"
     weight = 4
   [[menu.nav]]
     name = "LinkedIn"
