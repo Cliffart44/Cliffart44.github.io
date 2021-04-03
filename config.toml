@@ -80,3 +80,7 @@ pygmentsStyle = "pygments"
     name = "hh"
     url = "https://hh.ru/resume/3c910a1eff034eaa370039ed1f506e31474351"
     weight = 5
+  [[menu.nav]]
+    name = "QA's qualification"
+    url = "https://app.box.com/s/rceyln6czzg0h0d8j5e72vpb22cuut60"
+    weight = 6
